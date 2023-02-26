@@ -20,7 +20,7 @@ font pango:JetBrainsMono 6
 #font pango:DejaVu Sans Mono 8
 
 #background
-exec --no-startup-id feh --randomize --bg-fill /home/marerokevin/Pictures/Wallpaper/axs.png
+exec --no-startup-id feh --randomize --bg-fill /home/marerokevin/Pictures/Wallpaper/coff.jpg
 # Start XDG autostart .desktop files using dex. See also
 # https://wiki.archlinux.org/index.php/XDG_Autostart
 exec --no-startup-id dex-autostart --autostart --environment i3
