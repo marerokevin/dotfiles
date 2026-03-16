@@ -18,7 +18,7 @@ set $term kitty
 # Your preferred application launcher
 # Note: pass the final command to swaymsg so that the resulting window can be opened
 # on the original workspace that the command was run on.
-set $menu dmenu_path | dmenu | xargs swaymsg exec --
+set $menu wofi --show run
 
 # include /etc/sway/config-vars.d/*
 
@@ -26,7 +26,8 @@ set $menu dmenu_path | dmenu | xargs swaymsg exec --
 # Font, borders, and gaps
 #
 # font  font NotoSans Nerd Font 9
-font Cozette 9
+# font Cozette 9
+font FiraMono 9
 gaps inner 10
 gaps outer -4
 default_border none
