@@ -36,7 +36,8 @@ default_border none
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
 
-output * bg /home/kmarero/Pictures/thinkpad_1.jpeg fill
+output * bg /home/kmarero/Pictures/art002e009289~large.jpg fill
+# output * bg /home/kmarero/Pictures/thinkpad_1.jpeg fill
 # output * bg /home/kmarero/Pictures/flowers.png fill
 
 #
@@ -46,8 +47,8 @@ output * bg /home/kmarero/Pictures/thinkpad_1.jpeg fill
 bindsym XF86MonBrightnessUp exec brightnessctl set 10%+
 bindsym XF86MonBrightnessDown exec brightnessctl set 10%-
 
-output DP-7 resolution 1920x1080 position 0,0
-output DP-4 resolution 1920x1080 position 1920,0
+output DP-9 resolution 1920x1080 position 0,0
+output DP-6 resolution 1920x1080 position 1980,0
 # output DP-5 resolution 1920x1080 position 1920,0
 #output eDP-1 resolution 1920x1080 position 1920,0
 # output DP-6 resolution 1920x1080 position 0,0
